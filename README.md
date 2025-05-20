@@ -109,7 +109,7 @@ O **Sistema de Irrigação Automático** é um projeto desenvolvido com a placa 
    - Copie o arquivo `.uf2` gerado para a placa via USB.
 
 5. **Acesse a Interface Web**:
-   - Conecte a placa à rede Wi-Fi (SSID: "Tesla", senha: "123456788").
+   - Conecte a placa à rede Wi-Fi (SSID: "TESTE", senha: "*******").
    - Use um terminal serial (ex.: `minicom -b 115200 -o -D /dev/ttyACM0`) para obter o IP da placa.
    - Acesse o IP no navegador (ex.: `http://192.168.x.x`).
    - Controle os setores e alterne os modos via interface web.
