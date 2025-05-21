@@ -43,13 +43,13 @@ target_link_libraries(${PROJECT_NAME}
         hardware_adc
         pico_cyw43_arch_lwip_threadsafe_background
         pico_bootsel_via_double_reset # PARA COLOCAR A PLACA NO MODO DE GRAVACAO
-pico_bootrom # PARA COLOCAR A PLACA NO MODO DE GRAVACAO
-hardware_pio # para matriz de leds
-hardware_clocks # para matriz de leds
-hardware_pwm
-hardware_i2c
- pico_time
- hardware_pio # para matriz de leds
+        pico_bootrom # PARA COLOCAR A PLACA NO MODO DE GRAVACAO
+        hardware_pio # para matriz de leds
+        hardware_clocks # para matriz de leds
+        hardware_pwm
+        hardware_i2c
+        pico_time
+        hardware_pio # para matriz de leds
 )
 
 # Add the standard include files to the build
